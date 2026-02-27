@@ -13,9 +13,12 @@
 <link rel="up" href="index.html" title="Statistics 1: Problem Sheet">
 <link rel="start" href="index.html" title="Statistics 1: Problem Sheet">
 <link rel="prev" href="S3.html" title="3 US Presidential Election Polling via Frequentist Methods ‣ Statistics 1: Problem Sheet">
+<link rel="next" href="S5.html" title="5 The Likelihood ‣ Statistics 1: Problem Sheet">
 <link rel="section" href="S1.html" title="1 Interpretations of Probability ‣ Statistics 1: Problem Sheet">
 <link rel="section" href="S2.html" title="2 Disease Testing Using Bayesian Methods ‣ Statistics 1: Problem Sheet">
 <link rel="section" href="S3.html" title="3 US Presidential Election Polling via Frequentist Methods ‣ Statistics 1: Problem Sheet">
+<link rel="section" href="S5.html" title="5 The Likelihood ‣ Statistics 1: Problem Sheet">
+<link rel="section" href="S6.html" title="6 The Bayesian Paradigm ‣ Statistics 1: Problem Sheet">
 </head>
 <body>
 <nav class="ltx_page_navbar"><a href="index.html" title="" class="ltx_ref" rel="start"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a>
@@ -25,12 +28,14 @@
 <li class="ltx_tocentry ltx_tocentry_section"><a href="S2.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span><span class="ltx_text ltx_framed ltx_framed_underline">Disease Testing Using Bayesian Methods</span></span></a></li>
 <li class="ltx_tocentry ltx_tocentry_section"><a href="S3.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></a></li>
 <li class="ltx_tocentry ltx_tocentry_section ltx_ref_self"><span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Frequentist Paradigm</span></span></span></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="S5.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Likelihood</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="S6.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Bayesian Paradigm</span></span></a></li>
 </ol></nav>
 </nav>
 <div class="ltx_page_main">
 <header class="ltx_page_header">
 <div class="ltx_align_center">
-<a href="index.html" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="S3.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></a>
+<a href="index.html" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="S3.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></a><a href="S5.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Likelihood</span></span></a>
 </div></header>
 <div class="ltx_page_content">
 <section class="ltx_section">
@@ -50,52 +55,52 @@
 random variables?</p>
 </div>
 <div id="I1.ix12.p2" class="ltx_para">
-<ol id="I1.ix12.I8" class="ltx_enumerate">
-<li id="I1.ix12.I8.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix12.I9" class="ltx_enumerate">
+<li id="I1.ix12.I9.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(a)</span> 
-<div id="I1.ix12.I8.i1.p1" class="ltx_para">
+<div id="I1.ix12.I9.i1.p1" class="ltx_para">
 <p class="ltx_p">The population mean.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(b)</span> 
-<div id="I1.ix12.I8.i2.p1" class="ltx_para">
+<div id="I1.ix12.I9.i2.p1" class="ltx_para">
 <p class="ltx_p">The population size.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(c)</span> 
-<div id="I1.ix12.I8.i3.p1" class="ltx_para">
-<p class="ltx_p">The sample size, <math id="I1.ix12.I8.i3.p1.m1" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math>.</p>
+<div id="I1.ix12.I9.i3.p1" class="ltx_para">
+<p class="ltx_p">The sample size, <math id="I1.ix12.I9.i3.p1.m1" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math>.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i4" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i4" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(d)</span> 
-<div id="I1.ix12.I8.i4.p1" class="ltx_para">
+<div id="I1.ix12.I9.i4.p1" class="ltx_para">
 <p class="ltx_p">The sample mean.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i5" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i5" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(e)</span> 
-<div id="I1.ix12.I8.i5.p1" class="ltx_para">
+<div id="I1.ix12.I9.i5.p1" class="ltx_para">
 <p class="ltx_p">The variance of the sample mean.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i6" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i6" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(f)</span> 
-<div id="I1.ix12.I8.i6.p1" class="ltx_para">
+<div id="I1.ix12.I9.i6.p1" class="ltx_para">
 <p class="ltx_p">The largest value in the sample.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i7" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i7" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(g)</span> 
-<div id="I1.ix12.I8.i7.p1" class="ltx_para">
+<div id="I1.ix12.I9.i7.p1" class="ltx_para">
 <p class="ltx_p">The population variance.</p>
 </div>
 </li>
-<li id="I1.ix12.I8.i8" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix12.I9.i8" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(h)</span> 
-<div id="I1.ix12.I8.i8.p1" class="ltx_para">
+<div id="I1.ix12.I9.i8.p1" class="ltx_para">
 <p class="ltx_p">The estimated variance of the sample mean.</p>
 </div>
 </li>
@@ -110,50 +115,50 @@ random variables?</p>
 <div id="I1.ix13.p1" class="ltx_para">
 <p class="ltx_p">This question simply tests your
 ability to use <math id="I1.ix13.p1.m1" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math>-tables.</p>
-<ol id="I1.ix13.I9" class="ltx_enumerate">
-<li id="I1.ix13.I9.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix13.I10" class="ltx_enumerate">
+<li id="I1.ix13.I10.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(a)</span> 
-<div id="I1.ix13.I9.i1.p1" class="ltx_para">
-<p class="ltx_p">A random variable <math id="I1.ix13.I9.i1.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I9.i1.p1.m2" class="ltx_Math" alttext="t_{16}" display="inline"><msub><mi>t</mi><mn>16</mn></msub></math> distribution (i.e. a <math id="I1.ix13.I9.i1.p1.m3" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math>
-distribution with 16 degrees of freedom). Find the number <math id="I1.ix13.I9.i1.p1.m4" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
-<math id="I1.ix13.I9.i1.p1.m5" class="ltx_Math" alttext="P(T&gt;c)=0.025" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>T</mi><mo>&gt;</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.025</mn></mrow></math>. What would <math id="I1.ix13.I9.i1.p1.m6" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I9.i1.p1.m7" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
+<div id="I1.ix13.I10.i1.p1" class="ltx_para">
+<p class="ltx_p">A random variable <math id="I1.ix13.I10.i1.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I10.i1.p1.m2" class="ltx_Math" alttext="t_{16}" display="inline"><msub><mi>t</mi><mn>16</mn></msub></math> distribution (i.e. a <math id="I1.ix13.I10.i1.p1.m3" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math>
+distribution with 16 degrees of freedom). Find the number <math id="I1.ix13.I10.i1.p1.m4" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
+<math id="I1.ix13.I10.i1.p1.m5" class="ltx_Math" alttext="P(T&gt;c)=0.025" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>T</mi><mo>&gt;</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.025</mn></mrow></math>. What would <math id="I1.ix13.I10.i1.p1.m6" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I10.i1.p1.m7" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
 Normal distribution?</p>
 </div>
 </li>
-<li id="I1.ix13.I9.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix13.I10.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(b)</span> 
-<div id="I1.ix13.I9.i2.p1" class="ltx_para">
-<p class="ltx_p">A random variable <math id="I1.ix13.I9.i2.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I9.i2.p1.m2" class="ltx_Math" alttext="t_{7}" display="inline"><msub><mi>t</mi><mn>7</mn></msub></math> distribution.
-Find the number <math id="I1.ix13.I9.i2.p1.m3" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
-<math id="I1.ix13.I9.i2.p1.m4" class="ltx_Math" alttext="P(T\leq-c)=0.05" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>T</mi><mo>≤</mo><mrow><mo>−</mo><mi>c</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.05</mn></mrow></math>. What would <math id="I1.ix13.I9.i2.p1.m5" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I9.i2.p1.m6" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
+<div id="I1.ix13.I10.i2.p1" class="ltx_para">
+<p class="ltx_p">A random variable <math id="I1.ix13.I10.i2.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I10.i2.p1.m2" class="ltx_Math" alttext="t_{7}" display="inline"><msub><mi>t</mi><mn>7</mn></msub></math> distribution.
+Find the number <math id="I1.ix13.I10.i2.p1.m3" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
+<math id="I1.ix13.I10.i2.p1.m4" class="ltx_Math" alttext="P(T\leq-c)=0.05" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>T</mi><mo>≤</mo><mrow><mo>−</mo><mi>c</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.05</mn></mrow></math>. What would <math id="I1.ix13.I10.i2.p1.m5" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I10.i2.p1.m6" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
 Normal distribution?</p>
 </div>
 </li>
-<li id="I1.ix13.I9.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix13.I10.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(c)</span> 
-<div id="I1.ix13.I9.i3.p1" class="ltx_para">
-<p class="ltx_p">A random variable <math id="I1.ix13.I9.i3.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I9.i3.p1.m2" class="ltx_Math" alttext="t_{35}" display="inline"><msub><mi>t</mi><mn>35</mn></msub></math> distribution.
-Find approximately the number <math id="I1.ix13.I9.i3.p1.m3" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
-<math id="I1.ix13.I9.i3.p1.m4" class="ltx_Math" alttext="P(-c&lt;T\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>&lt;</mo><mi>T</mi><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math>. What would <math id="I1.ix13.I9.i3.p1.m5" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I9.i3.p1.m6" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
+<div id="I1.ix13.I10.i3.p1" class="ltx_para">
+<p class="ltx_p">A random variable <math id="I1.ix13.I10.i3.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I10.i3.p1.m2" class="ltx_Math" alttext="t_{35}" display="inline"><msub><mi>t</mi><mn>35</mn></msub></math> distribution.
+Find approximately the number <math id="I1.ix13.I10.i3.p1.m3" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> such that
+<math id="I1.ix13.I10.i3.p1.m4" class="ltx_Math" alttext="P(-c&lt;T\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>&lt;</mo><mi>T</mi><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math>. What would <math id="I1.ix13.I10.i3.p1.m5" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math> be if instead <math id="I1.ix13.I10.i3.p1.m6" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
 Normal distribution?</p>
 </div>
 </li>
-<li id="I1.ix13.I9.i4" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix13.I10.i4" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(d)</span> 
-<div id="I1.ix13.I9.i4.p1" class="ltx_para">
-<p class="ltx_p">A random variable <math id="I1.ix13.I9.i4.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I9.i4.p1.m2" class="ltx_Math" alttext="t_{12}" display="inline"><msub><mi>t</mi><mn>12</mn></msub></math> distribution.
-Roughly, how likely is it to see a value of <math id="I1.ix13.I9.i4.p1.m3" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> at least as large as
-1.5? What would your answer be if instead <math id="I1.ix13.I9.i4.p1.m4" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
+<div id="I1.ix13.I10.i4.p1" class="ltx_para">
+<p class="ltx_p">A random variable <math id="I1.ix13.I10.i4.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I10.i4.p1.m2" class="ltx_Math" alttext="t_{12}" display="inline"><msub><mi>t</mi><mn>12</mn></msub></math> distribution.
+Roughly, how likely is it to see a value of <math id="I1.ix13.I10.i4.p1.m3" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> at least as large as
+1.5? What would your answer be if instead <math id="I1.ix13.I10.i4.p1.m4" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
 Normal distribution?</p>
 </div>
 </li>
-<li id="I1.ix13.I9.i5" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix13.I10.i5" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(e)</span> 
-<div id="I1.ix13.I9.i5.p1" class="ltx_para">
-<p class="ltx_p">A random variable <math id="I1.ix13.I9.i5.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I9.i5.p1.m2" class="ltx_Math" alttext="t_{12}" display="inline"><msub><mi>t</mi><mn>12</mn></msub></math> distribution.
-Roughly, how likely is it to see a value of <math id="I1.ix13.I9.i5.p1.m3" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> at least as extreme as
+<div id="I1.ix13.I10.i5.p1" class="ltx_para">
+<p class="ltx_p">A random variable <math id="I1.ix13.I10.i5.p1.m1" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> has a <math id="I1.ix13.I10.i5.p1.m2" class="ltx_Math" alttext="t_{12}" display="inline"><msub><mi>t</mi><mn>12</mn></msub></math> distribution.
+Roughly, how likely is it to see a value of <math id="I1.ix13.I10.i5.p1.m3" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> at least as extreme as
 1.5 (i.e. no larger than -1.5 or no smaller than +1.5)?
-What would your answer be if instead <math id="I1.ix13.I9.i5.p1.m4" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
+What would your answer be if instead <math id="I1.ix13.I10.i5.p1.m4" class="ltx_Math" alttext="T" display="inline"><mi>T</mi></math> had a standard
 Normal distribution?</p>
 </div>
 </li>
@@ -167,43 +172,43 @@ Normal distribution?</p>
 128 ounces. Let <math id="I1.ix14.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> be the number of ounces of milk per container, and
 assume that <math id="I1.ix14.p1.m2" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is Normally distributed with standard deviation one
 ounce.</p>
-<ol id="I1.ix14.I10" class="ltx_enumerate">
-<li id="I1.ix14.I10.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix14.I11" class="ltx_enumerate">
+<li id="I1.ix14.I11.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(a)</span> 
-<div id="I1.ix14.I10.i1.p1" class="ltx_para">
+<div id="I1.ix14.I11.i1.p1" class="ltx_para">
 <p class="ltx_p">If the claim is true, what percentage of containers will have</p>
-<ol id="I1.ix14.I10.i1.I1" class="ltx_enumerate">
-<li id="I1.ix14.I10.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix14.I11.i1.I1" class="ltx_enumerate">
+<li id="I1.ix14.I11.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">i.</span> 
-<div id="I1.ix14.I10.i1.I1.i1.p1" class="ltx_para">
+<div id="I1.ix14.I11.i1.I1.i1.p1" class="ltx_para">
 <p class="ltx_p">Less than 126 ounces?</p>
 </div>
 </li>
-<li id="I1.ix14.I10.i1.I1.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix14.I11.i1.I1.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">ii.</span> 
-<div id="I1.ix14.I10.i1.I1.i2.p1" class="ltx_para">
+<div id="I1.ix14.I11.i1.I1.i2.p1" class="ltx_para">
 <p class="ltx_p">More than 129 ounces?</p>
 </div>
 </li>
-<li id="I1.ix14.I10.i1.I1.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix14.I11.i1.I1.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">iii.</span> 
-<div id="I1.ix14.I10.i1.I1.i3.p1" class="ltx_para">
+<div id="I1.ix14.I11.i1.I1.i3.p1" class="ltx_para">
 <p class="ltx_p">Between 127.5 and 130.5 ounces?</p>
 </div>
 </li>
 </ol>
 </div>
 </li>
-<li id="I1.ix14.I10.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix14.I11.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(b)</span> 
-<div id="I1.ix14.I10.i2.p1" class="ltx_para">
+<div id="I1.ix14.I11.i2.p1" class="ltx_para">
 <p class="ltx_p">A random sample of 25 containers gave a sample mean of 127.4
-ounces. Find <math id="I1.ix14.I10.i2.p1.m1" class="ltx_Math" alttext="P(\bar{X}~{}&lt;~{}127.4)" display="inline"><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo rspace="0.608em">&lt;</mo><mn>127.4</mn></mrow><mo stretchy="false">)</mo></mrow></mrow></math>, assuming again that the claim is true.</p>
+ounces. Find <math id="I1.ix14.I11.i2.p1.m1" class="ltx_Math" alttext="P(\bar{X}~{}&lt;~{}127.4)" display="inline"><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo rspace="0.608em">&lt;</mo><mn>127.4</mn></mrow><mo stretchy="false">)</mo></mrow></mrow></math>, assuming again that the claim is true.</p>
 </div>
 </li>
-<li id="I1.ix14.I10.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix14.I11.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(c)</span> 
-<div id="I1.ix14.I10.i3.p1" class="ltx_para">
+<div id="I1.ix14.I11.i3.p1" class="ltx_para">
 <p class="ltx_p">Using the answer to the previous part, do you feel that there is
 evidence that the true mean is less than 128 ounces? If so, why?</p>
 </div>
@@ -223,30 +228,30 @@ hidden image. The experimenter’s budget allows a sample size of <math id="I1.i
 represent the sample mean for <math id="I1.ix15.p2.m2" class="ltx_Math" alttext="n=13" display="inline"><mrow><mi>n</mi><mo>=</mo><mn>13</mn></mrow></math>, and suppose that the measurements will be drawn
 independently from a distribution with mean <math id="I1.ix15.p2.m3" class="ltx_Math" alttext="\mu" display="inline"><mi>μ</mi></math> and variance
 <math id="I1.ix15.p2.m4" class="ltx_Math" alttext="\sigma^{2}" display="inline"><msup><mi>σ</mi><mn>2</mn></msup></math>.</p>
-<ol id="I1.ix15.I11" class="ltx_enumerate">
-<li id="I1.ix15.I11.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix15.I12" class="ltx_enumerate">
+<li id="I1.ix15.I12.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(a)</span> 
-<div id="I1.ix15.I11.i1.p1" class="ltx_para">
-<p class="ltx_p">What, approximately, is the distribution of <math id="I1.ix15.I11.i1.p1.m1" class="ltx_Math" alttext="\bar{X}" display="inline"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></math>, and why?</p>
+<div id="I1.ix15.I12.i1.p1" class="ltx_para">
+<p class="ltx_p">What, approximately, is the distribution of <math id="I1.ix15.I12.i1.p1.m1" class="ltx_Math" alttext="\bar{X}" display="inline"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></math>, and why?</p>
 </div>
 </li>
-<li id="I1.ix15.I11.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix15.I12.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(b)</span> 
-<div id="I1.ix15.I11.i2.p1" class="ltx_para">
-<p class="ltx_p">When is the distribution of <math id="I1.ix15.I11.i2.p1.m1" class="ltx_Math" alttext="\bar{X}" display="inline"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></math> <span class="ltx_text ltx_font_italic">exactly</span> Normal?</p>
+<div id="I1.ix15.I12.i2.p1" class="ltx_para">
+<p class="ltx_p">When is the distribution of <math id="I1.ix15.I12.i2.p1.m1" class="ltx_Math" alttext="\bar{X}" display="inline"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></math> <span class="ltx_text ltx_font_italic">exactly</span> Normal?</p>
 </div>
 </li>
-<li id="I1.ix15.I11.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix15.I12.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(c)</span> 
-<div id="I1.ix15.I11.i3.p1" class="ltx_para">
-<p class="ltx_p"><span class="ltx_text ltx_font_bold">Before taking any measurements</span>, calculate a value <math id="I1.ix15.I11.i3.p1.m1" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math>, using appropriate tables, such that
-<math id="I1.ix15.I11.i3.p1.m2" class="ltx_Math" alttext="P(-c\leq\bar{X}-\mu\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math> when it is known that
-<math id="I1.ix15.I11.i3.p1.m3" class="ltx_Math" alttext="\sigma^{2}=9" display="inline"><mrow><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>.</p>
+<div id="I1.ix15.I12.i3.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Before taking any measurements</span>, calculate a value <math id="I1.ix15.I12.i3.p1.m1" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math>, using appropriate tables, such that
+<math id="I1.ix15.I12.i3.p1.m2" class="ltx_Math" alttext="P(-c\leq\bar{X}-\mu\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math> when it is known that
+<math id="I1.ix15.I12.i3.p1.m3" class="ltx_Math" alttext="\sigma^{2}=9" display="inline"><mrow><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>.</p>
 </div>
 </li>
-<li id="I1.ix15.I11.i4" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix15.I12.i4" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(d)</span> 
-<div id="I1.ix15.I11.i4.p1" class="ltx_para">
+<div id="I1.ix15.I12.i4.p1" class="ltx_para">
 <p class="ltx_p">The experimenter now observes some data. The following data are
 reaction times in seconds for 13 individuals:</p>
 <table class="ltx_tabular ltx_centering ltx_align_middle">
@@ -256,28 +261,28 @@ reaction times in seconds for 13 individuals:</p>
 </tr>
 </tbody>
 </table>
-<ol id="I1.ix15.I11.i4.I1" class="ltx_enumerate">
-<li id="I1.ix15.I11.i4.I1.i1" class="ltx_item" style="list-style-type:none;">
+<ol id="I1.ix15.I12.i4.I1" class="ltx_enumerate">
+<li id="I1.ix15.I12.i4.I1.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">i.</span> 
-<div id="I1.ix15.I11.i4.I1.i1.p1" class="ltx_para">
+<div id="I1.ix15.I12.i4.I1.i1.p1" class="ltx_para">
 <p class="ltx_p">The data are assessed using a <span class="ltx_text ltx_font_italic">Normal quantile plot</span> and it is concluded that the data seem to be reasonably Normal (see the solutions for the
-quantile plot and further discussion). Is the use of a <math id="I1.ix15.I11.i4.I1.i1.p1.m1" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> distribution justified here?</p>
+quantile plot and further discussion). Is the use of a <math id="I1.ix15.I12.i4.I1.i1.p1.m1" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> distribution justified here?</p>
 </div>
 </li>
-<li id="I1.ix15.I11.i4.I1.i2" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix15.I12.i4.I1.i2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">ii.</span> 
-<div id="I1.ix15.I11.i4.I1.i2.p1" class="ltx_para">
-<p class="ltx_p">Calculate a value <math id="I1.ix15.I11.i4.I1.i2.p1.m1" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math>, using tables, such that
-<math id="I1.ix15.I11.i4.I1.i2.p1.m2" class="ltx_Math" alttext="P(-c\leq\bar{X}-\mu\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math> when
-<math id="I1.ix15.I11.i4.I1.i2.p1.m3" class="ltx_Math" alttext="\sigma^{2}" display="inline"><msup><mi>σ</mi><mn>2</mn></msup></math> is not known, and must be estimated by <math id="I1.ix15.I11.i4.I1.i2.p1.m4" class="ltx_Math" alttext="s^{2}" display="inline"><msup><mi>s</mi><mn>2</mn></msup></math> using
+<div id="I1.ix15.I12.i4.I1.i2.p1" class="ltx_para">
+<p class="ltx_p">Calculate a value <math id="I1.ix15.I12.i4.I1.i2.p1.m1" class="ltx_Math" alttext="c" display="inline"><mi>c</mi></math>, using tables, such that
+<math id="I1.ix15.I12.i4.I1.i2.p1.m2" class="ltx_Math" alttext="P(-c\leq\bar{X}-\mu\leq c)=0.95" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>c</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>c</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.95</mn></mrow></math> when
+<math id="I1.ix15.I12.i4.I1.i2.p1.m3" class="ltx_Math" alttext="\sigma^{2}" display="inline"><msup><mi>σ</mi><mn>2</mn></msup></math> is not known, and must be estimated by <math id="I1.ix15.I12.i4.I1.i2.p1.m4" class="ltx_Math" alttext="s^{2}" display="inline"><msup><mi>s</mi><mn>2</mn></msup></math> using
 the data supplied.</p>
 </div>
 </li>
-<li id="I1.ix15.I11.i4.I1.i3" class="ltx_item" style="list-style-type:none;">
+<li id="I1.ix15.I12.i4.I1.i3" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">iii.</span> 
-<div id="I1.ix15.I11.i4.I1.i3.p1" class="ltx_para">
-<p class="ltx_p">Repeat the previous part, but find <math id="I1.ix15.I11.i4.I1.i3.p1.m1" class="ltx_Math" alttext="d" display="inline"><mi>d</mi></math> such that <math id="I1.ix15.I11.i4.I1.i3.p1.m2" class="ltx_Math" alttext="P(-d\leq\bar{X}-\mu\leq d)=0.50" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>d</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>d</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.50</mn></mrow></math> when <math id="I1.ix15.I11.i4.I1.i3.p1.m3" class="ltx_Math" alttext="\sigma^{2}" display="inline"><msup><mi>σ</mi><mn>2</mn></msup></math> is estimated by
-<math id="I1.ix15.I11.i4.I1.i3.p1.m4" class="ltx_Math" alttext="s^{2}" display="inline"><msup><mi>s</mi><mn>2</mn></msup></math>.</p>
+<div id="I1.ix15.I12.i4.I1.i3.p1" class="ltx_para">
+<p class="ltx_p">Repeat the previous part, but find <math id="I1.ix15.I12.i4.I1.i3.p1.m1" class="ltx_Math" alttext="d" display="inline"><mi>d</mi></math> such that <math id="I1.ix15.I12.i4.I1.i3.p1.m2" class="ltx_Math" alttext="P(-d\leq\bar{X}-\mu\leq d)=0.50" display="inline"><mrow><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>−</mo><mi>d</mi></mrow><mo>≤</mo><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>−</mo><mi>μ</mi></mrow><mo>≤</mo><mi>d</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0.50</mn></mrow></math> when <math id="I1.ix15.I12.i4.I1.i3.p1.m3" class="ltx_Math" alttext="\sigma^{2}" display="inline"><msup><mi>σ</mi><mn>2</mn></msup></math> is estimated by
+<math id="I1.ix15.I12.i4.I1.i3.p1.m4" class="ltx_Math" alttext="s^{2}" display="inline"><msup><mi>s</mi><mn>2</mn></msup></math>.</p>
 </div>
 </li>
 </ol>
@@ -705,13 +710,13 @@ distribution shape on the main measures of central location and spread.</p>
 <li id="I3.ix1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">24.</span> 
 <div id="I3.ix1.p1" class="ltx_para">
-<p class="ltx_p">See Assignment 5 - Summative Peer Assessment</p>
+<p class="ltx_p">See Assignment 5 - Summative Peer Assessment.</p>
 </div>
 </li>
 <li id="I3.ix2" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">25.</span> 
 <div id="I3.ix2.p1" class="ltx_para">
-<p class="ltx_p">See Assignment 5 - Summative Peer Assessment</p>
+<p class="ltx_p">See Assignment 5 - Summative Peer Assessment.</p>
 </div>
 </li>
 <li id="I3.ix3" class="ltx_item" style="list-style-type:none;">
@@ -987,7 +992,7 @@ your answer.</p>
 <span class="ltx_tag ltx_tag_item">32.</span> 
 <div id="I3.ix9.p1" class="ltx_para">
 <p class="ltx_p">The <math id="I3.ix9.p1.m1" class="ltx_Math" alttext="p" display="inline"><mi>p</mi></math>-value, as used in several of the previous questions to decide whether to reject the null hypothesis <math id="I3.ix9.p1.m2" class="ltx_Math" alttext="H_{0}" display="inline"><msub><mi>H</mi><mn>0</mn></msub></math>, is defined in these cases as:</p>
-<table id="EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+<table id="S6.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
 
 <tbody id="Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
@@ -1153,11 +1158,12 @@ faulty products?</p>
 </li>
 </ol>
 </div>
+<div class="ltx_pagination ltx_role_newpage"></div>
 </section>
 </div>
 <footer class="ltx_page_footer">
 <div class="ltx_align_center">
-<a href="S3.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></a>
+<a href="S3.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></a><a href="S5.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Likelihood</span></span></a>
 </div>
 <div class="ltx_page_logo">Generated  by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
 </div></footer>
